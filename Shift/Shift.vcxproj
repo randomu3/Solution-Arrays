@@ -21,10 +21,9 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{2a151a38-c968-4a29-bd6c-a74866094c0d}</ProjectGuid>
-    <RootNamespace>SolutionArrays</RootNamespace>
+    <ProjectGuid>{99d5b6e0-913e-4679-93f2-59a54960b4b4}</ProjectGuid>
+    <RootNamespace>Shift</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>Arrays</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
