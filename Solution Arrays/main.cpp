@@ -64,7 +64,7 @@ int main()
         }
         case 3: {
             cout << "Вывод массива в обратном порядке: " << endl;
-            for (int i = SIZE; i + 1 > 0; i--) {
+            for (int i = SIZE - 1; i >= 0; i--) {
                 cout << arr[i] << " ";
             }
             cout << endl;
