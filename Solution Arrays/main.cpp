@@ -9,13 +9,13 @@ int main()
     setlocale(LC_ALL, "Russian");
     int current, task, index = 0;
 
-    int arr[SIZE] = {}; // Объявление массива
+    int arr[SIZE] = {};
 
     cout << "Всего элементов массива будет: " << SIZE << endl;
     while (index < SIZE) {
-        cout << "Введите элемент под " << index << " индексом вашего массива: " << endl; cin >> current; // Текущее значение
-        arr[index] = current; // Значение массива под текущим индексом
-        index++; // Индекс
+        cout << "Введите элемент под " << index << " индексом вашего массива: " << endl; cin >> current;
+        arr[index] = current;
+        index++;
     }
 
     cout << "Текущий массив задан." << endl;
