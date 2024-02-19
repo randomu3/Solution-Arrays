@@ -1,4 +1,4 @@
-#include <iostream>
+ï»¿#include <iostream>
 using namespace std;
 
 const int SIZE = 9;
@@ -6,10 +6,10 @@ const int SIZE = 9;
 int main() {
     setlocale(LC_ALL, "Russian");
     int number;
-    cout << "Ââåäèòå öåëîå ÷èñëî: ";
+    cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ†ÐµÐ»Ð¾Ðµ Ñ‡Ð¸ÑÐ»Ð¾: ";
     cin >> number;
 
-    cout << "×èñëî â øåñòíàäöàòåðè÷íîé ñèñòåìå ñ÷èñëåíèÿ: ";
+    cout << "Ð§Ð¸ÑÐ»Ð¾ Ð² ÑˆÐµÑÑ‚Ð½Ð°Ð´Ñ†Ð°Ñ‚ÐµÑ€Ð¸Ñ‡Ð½Ð¾Ð¹ ÑÐ¸ÑÑ‚ÐµÐ¼Ðµ ÑÑ‡Ð¸ÑÐ»ÐµÐ½Ð¸Ñ: ";
     if (number == 0) {
         cout << "0";
     }
